@@ -6,7 +6,7 @@ def arguments():
     parser = argparse.ArgumentParser(
         prog="Monitor mode changer",
         description="Change your network adapter from managed to monitor mode",
-        epilog=f"\033[1m\033[95mWireless mode changer WMD \033[0m1.1.2 by Roberto Fernandino, a cybersecurity enthusiast",
+        epilog=f"\033[1m\033[95mWireless mode changer WMD \033[0m1.1.3 by Roberto Fernandino, a cybersecurity enthusiast",
     )
     parser.add_argument(
         "-i",
