@@ -4,8 +4,11 @@ This script is designed to change your current iwconfig, Wireless configuration,
 ## Usage
 The script will work with all python 3.X+ versions and obviously only works for Linux.
 
+## Dependencies
+aircrack-ng 
+
 ## 1st
-Download the script
+Download the script  
 
 ## 2nd
 Run the script in the shell as sudo
