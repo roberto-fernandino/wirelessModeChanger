@@ -4,15 +4,16 @@ This script is designed to change your current iwconfig, Wireless configuration,
 ## Usage
 The script will work with all python 3.X+ versions and obviously only works for Linux.
 
-## 1-
+## 1st
 Download the script
 
-## 2-
+## 2nd
 Run the script in the shell as sudo
-
 -h for help
 
--i or --interface to choose the interface
+-i or 
+
+--interface to choose the interface
 
 if --back is specified it will go back to Normal mode (Managed mode)
 
