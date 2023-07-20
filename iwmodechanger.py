@@ -44,8 +44,7 @@ options = arguments()
 def main():
     if options.backto:
         backManaged(options.interface)
-    else:
-        print(options.b)
+    else: 
         changeMode(options.interface)
 
 
