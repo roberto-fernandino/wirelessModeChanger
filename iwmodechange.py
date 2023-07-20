@@ -46,12 +46,14 @@ def main():
         print("[+] Going back to Managed mode")
         try:
             backManaged(options.interface)
+            print("[+] Sucessifuly Changed back to Managed mode")
         except PermissionError:
             print("[-] Error! could not change Monitor mode run the script as a sudo")
     else:
         print("[+]Changing to Monitor mode")
         try:
             changeMode(options.interface)
+            print("[+] Sucessifuly Changed to monitor mode")
         except PermissionError:
             print(
                 "[-] Error! could not change Monitor mode try run the script as a sudo"
